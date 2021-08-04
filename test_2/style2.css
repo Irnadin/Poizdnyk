@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+h1{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(76, 76, 211);
+     text-align: center;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:800;
+}
+a{
+     color: rgb(16, 102, 156);
+text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: navy;
+    cursor: pointer;
+}
+
+.container{
+   width: 400px;
+   margin-left: auto;
+ margin-right:  auto;
+  border-radius: 8px;
+padding: 15px;
+box-shadow: 0 8px 7px 0   rgba(187, 185, 185, 0.5);
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-content: center;
+align-items: flex-start;
+
+}
+.Sign-in-to {
+    
+    font-size: 11pt;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+.email{
+    
+     font-size: 11pt;
+     margin-top: 5px;
+     margin-bottom: 5px;
+}
+input {
+    outline: none;
+}
+input[type="text"]
+{
+   width: 300px;
+   height: 50px;
+   font-size: 10pt;
+   cursor: pointer;
+   outline: none;
+   border: 1px solid rgb(187, 184, 184);
+   border-radius: 5px;
+  
+}
+input[type="text"]:focus {
+    border: 1px solid rgb(96, 155, 223);
+}
+
+input[type="password"]:focus
+{
+    border: 1px solid rgb(96, 155, 223);
+}
+  input[type="password"]{
+      width: 300px;
+      height: 50px;
+      font-size: 11pt;
+      cursor: pointer;
+      outline: none;
+      border: 1px solid rgb(187, 184, 184);
+      border-radius: 5px;
+  }
+
+.pasword-forgot{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+}
+.password{
+    align-self: flex-start;
+    align-items: flex-start;
+    font-size: 11pt;
+     margin-top: 5px;
+     margin-bottom: 3px;
+        
+       }
+
+.input-password{
+    margin-top: 5px;
+    margin-bottom: 3px;
+    
+}
+.forgot{
+  align-self: flex-end;
+  align-items: flex-end;
+  font-size:9pt;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 93px;
+ }
+button{
+  width: 300px;
+  height: 50px;
+  color: rgb(252, 252, 253);
+  background-color:rgb(76, 76, 211);
+  border-radius: 5px;
+  text-align: center;
+  font-size: 11pt;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  outline: none;
+  border: 0;
+}
+.check{
+    width: 20px;
+    height: 20px;
+    border: 1px solid slategrey;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.check-stay-signed{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+.stay-signed{
+  font-size: 11pt;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+.use-singe{
+  padding: 10px;px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 9pt;
+  align-self: center;
+}
+.container-for-2-row{
+   display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom:10px;
+  padding: 10px;
+
+}
+.sign-up{
+  margin-left: 10px;
+  font-size: 11px;
+}
+.do-not-have-an-account{
+    font-size:11px;
+}
+   
